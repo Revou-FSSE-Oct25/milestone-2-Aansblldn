@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game One</title>
+  <link rel="stylesheet" href="../index.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="../index.html" class="back">← BACK</a>
+    <div class="logo">REVOFVN.STUDIO</div>
+    <a href="../pages/game2.html" class="back">NEXT GAME →</a>
+  </nav>
+
+  <!-- INFO GAME -->
+  <section class="game-hero" id="gameHero">
+    <h1>NUMBER GUESSING <br>
+        GAME.</h1>
+    <p class="title-game">
+    Tebak angka
+    </p>
+  </section>
+
+  <section class="game-content" id="gameInfo">
+    <div class="game-frame">
+      <p class="description">
+        Game Guess The Number adalah permainan sederhana berbasis JavaScript di mana pemain harus menebak sebuah angka rahasia yang dihasilkan secara acak oleh sistem. Angka tersebut berada dalam rentang tertentu (misalnya 1–100), dan pemain diberikan jumlah percobaan terbatas untuk menebaknya dengan benar.
+      </p>
+      <p style="text-align:left;" class="tutor">
+        1. Masukkan angka tebakan (1–100).<br>
+        2. Klik Tebak atau tekan Enter.<br>
+        3. Baca petunjuk: terlalu besar, terlalu kecil, atau benar.<br>
+        4. Ulangi sampai angka benar atau kesempatan habis</p>
+
+      <button class="play-btn" id="enterGame">
+        ENTER GAME
+      </button>
+    </div>
+  </section>
+
+  <!-- GAME AREA ----------------->
+  <section class="game-area" id="gameArea">
+    <h1 style="text-align: center; margin-bottom: 30px; margin-top: 10px;" class="text-2xl">Guess The Number | Tebak Angka</h1>
+    <p style="margin-left: 20px;">Masukkan angka 1 sampai 100</p>
+
+    <input style="padding: 50px; margin-left: 20px;" type="number" class="border border-gray-400" id="guessInput" />
+    <button style="padding: 50px;" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" id="guessBtn">Tebak</button>
+    <h2 style="margin-left: 20px;" id="bandar"></h2>
+
+  <p style="margin-left: 20px;" id="result"></p>
+  <p style="margin-left: 20px;" id="attempts"></p>
+  </section>
+<!---------------------------------------->
+
+  <footer>
+        <div style="padding: 50px;" class="flex w-full border-t pt-10 bg-black justify-around">
+            <a href="../index.html" target="_blank">
+            <img style="padding: 10px;" class="invert w-16 h-full self-center" src="../images/logorevo.png" alt="logo website">
+            </a>
+            <ul class="flex flex-row self-center text-white gap-5">
+                <li>Project</li>
+                <li>Photos</li>
+                <li>Revou</li>
+            </ul>
+            <a href="https://id.linkedin.com/in/aansabilladin" target="_blank">
+            <img class="w-[50px] h-[50px]" src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="gambar linkedin">
+            </a>
+        </div>
+    </footer>
+
+    <script src="../index.js"></script>
+</body>
+</html>
+

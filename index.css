@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+/* hero */
+.hero {
+  padding: 120px 40px;
+}
+
+.hero h1 {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.hero-text {
+  position: absolute;
+  right: 40px;
+  top: 220px;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 1.5px;
+}
+
+/* grid option game */
+.games {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 80px 40px;
+}
+
+.game-card {
+  border: 1px solid #333;
+  padding: 40px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: all 0.3s ease;
+}
+
+.game-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.game-card p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #aaa;
+}
+
+.game-card:hover {
+  background-color: #111;
+  transform: translateY(-10px);
+}
+
+/* GAME PAGE – HERO */
+.game-hero {
+  padding: 120px 40px 60px;
+}
+
+.game-hero h1 {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 1;
+}
+
+.title-game {
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #aaa;
+}
+
+/* GAME CONTENT */
+.game-content {
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.tutor {
+    font-size: 14px;
+    margin: 20px;
+}
+
+.game-frame {
+  width: 100%;
+  max-width: 900px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* DESCRIPTION */
+.description {
+  margin: 0 auto 30px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #ddd;
+  text-align: center;
+}
+
+/* BUTTON */
+.play-btn {
+  background: transparent;
+  border: 1px solid #fff;
+  color: white;
+  padding: 16px 48px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.play-btn:hover {
+  background: white;
+  color: black;
+}
+
+/* GAME AREA */
+.game-area {
+  display: none;
+  height: calc(100vh - 80px);
+  margin: 40px;
+  border: 2px solid #fff;
+  background-color: whitesmoke;
+  color: #000;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+}

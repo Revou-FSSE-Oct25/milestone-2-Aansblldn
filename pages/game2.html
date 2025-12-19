@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game One</title>
+  <link rel="stylesheet" href="../index.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="game1.html" class="back">← BACK</a>
+    <div class="logo">REVOFVN.STUDIO</div>
+    <a href="game3.html" class="back">NEXT GAME →</a>
+  </nav>
+
+  <!-- INFO GAME -->
+  <section class="game-hero" id="gameHero">
+    <h1>CLICKER GAME.</h1>
+    <p class="title-game">
+    Game Click Terbanyak
+    </p>
+  </section>
+
+  <section class="game-content" id="gameInfo">
+    <div class="game-frame">
+      <p class="description">
+        Clicker Game adalah permainan berbasis klik di mana pemain harus mengklik tombol sebanyak mungkin sebelum waktu habis. Setiap klik akan menambah skor, dan tujuan utama permainan adalah mendapatkan skor tertinggi dalam waktu yang tersedia.
+      </p>
+      <p style="text-align:left;" class="tutor">
+        1. Klik tombol Click untuk menambah skor. <br>
+        2. Skor bertambah setiap kali tombol diklik. <br>
+        3. Perhatikan sisa waktu yang berjalan. <br>
+        4. Setelah waktu habis, skor akhir ditampilkan. <br>
+        5. Klik Reset untuk memulai permainan kembali.</p>
+
+      <button class="play-btn" id="enterGame">
+        ENTER GAME
+      </button>
+    </div>
+  </section>
+
+  <!-- GAME AREA ----------------->
+  <section class="game-area" id="gameArea">
+  <h1 style="text-align: center; margin-top: 20px;" class="text-2xl">Clicker Game</h1>
+    <div style="text-align: center; margin-top: 100px;">
+  <p id="timer">Time Left: 10</p>
+  <p id="score">Score: 0</p>
+  <p id="message">Keep clicking!</p>
+    
+  <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" id="clickBtn">CLICK ME</button>
+  <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" id="resetBtn">RESET</button>
+  </div>
+</section>
+<!---------------------------------------->
+
+  <footer>
+        <div style="padding: 50px;" class="flex w-full border-t pt-10 bg-black justify-around">
+            <a href="../index.html" target="_blank">
+            <img style="padding: 10px;" class="invert w-16 h-full self-center" src="../images/logorevo.png" alt="logo website">
+            </a>
+            <ul class="flex flex-row self-center text-white gap-5">
+                <li>Project</li>
+                <li>Photos</li>
+                <li>Revou</li>
+            </ul>
+            <a href="https://id.linkedin.com/in/aansabilladin" target="_blank">
+            <img class="w-[50px] h-[50px]" src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="gambar linkedin">
+            </a>
+        </div>
+    </footer>
+    <script src="../index.js"></script>
+    <script src="../javascript/game2.js"></script>
+</body>
+
+</html>
+
