@@ -1,66 +1,55 @@
-Dokumentasi Website REVOFVN
-1. Deskripsi
+# Dokumentasi Website REVOFVN
 
-Website REVOFVN adalah website portofolio sederhana yang menampilkan studio digital kreatif beserta beberapa mini game berbasis web. Website ini dibuat sebagai bagian dari Milestone 2 dan berfungsi sebagai showcase proyek.
+## 1. Deskripsi
 
-- 🌍 Website: *[Revofvn Website](https://revou-fsse-oct25.github.io/milestone-1-Aansblldn/)*  
+Website **REVOFVN** adalah website portofolio sederhana yang menampilkan studio digital kreatif beserta beberapa mini game berbasis web. Website ini dibuat sebagai bagian dari **Milestone 2** dan berfungsi sebagai showcase proyek.
+
+- 🌍 Website: *[Revofvn Website](https://revou-fsse-oct25.github.io/milestone-2-Aansblldn/)*  
 
 > _“Learning never stops — every small project is a step toward mastery.”_  
 
-2. Tujuan
+## 2. Tujuan
 
-Menampilkan identitas studio REVOFVN
+* Menampilkan identitas studio REVOFVN
+* Menyediakan akses ke proyek mini game
+* Menjadi media portofolio berbasis web
 
-Menyediakan akses ke proyek mini game
+## 3. Struktur Halaman
 
-Menjadi media portofolio berbasis web
+* **Homepage**
 
-3. Struktur Halaman
+  * Logo dan judul REVOFVN
+  * Deskripsi singkat studio
+  * Daftar game yang dapat diakses
+* **Halaman Game**
 
-Homepage
+  * Tebak Angka
+  * Clicker Game
+  * Gunting Batu Kertas
 
-Logo dan judul REVOFVN
+## 4. Fitur Utama
 
-Deskripsi singkat studio
+* Tampilan sederhana dan modern
+* Navigasi langsung ke halaman game
+* Game interaktif menggunakan JavaScript
 
-Daftar game yang dapat diakses
+## 5. Teknologi
 
-Halaman Game
+* HTML
+* CSS
+* JavaScript
+* GitHub Pages (hosting)
 
-Tebak Angka
+## 6. Cara Menggunakan
 
-Clicker Game
+1. Buka website REVOFVN
+2. Pilih game yang tersedia di halaman utama
+3. Mainkan game sesuai instruksi di layar
 
-Gunting Batu Kertas
-
-4. Fitur Utama
-
-Tampilan sederhana dan modern
-
-Navigasi langsung ke halaman game
-
-Game interaktif menggunakan JavaScript
-
-5. Teknologi
-
-HTML
-
-CSS
-
-JavaScript
-
-GitHub Pages (hosting)
-
-6. Cara Menggunakan
-
-Buka website REVOFVN
-
-Pilih game yang tersedia di halaman utama
-
-Mainkan game sesuai instruksi di layar
-
-7. Catatan
+## 7. Catatan
 
 Website ini dibuat untuk pembelajaran dan pengembangan skill dasar front-end serta logika JavaScript melalui mini game interaktif.
+
+---
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PAiQDgnZ)
